@@ -7,7 +7,7 @@ app.use((helmet()));
 const PORT = process.env.PORT || 3000;
 
 
-// // GET ROUTE
+// GET ROUTE
  app.get('/', (req,res) => { res.send("Hello and Welcome") });
 
 
